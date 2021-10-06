@@ -1,2 +1,2 @@
 #Printing 'Hello' to terminal
-print("Hello")
+print("Deez")
