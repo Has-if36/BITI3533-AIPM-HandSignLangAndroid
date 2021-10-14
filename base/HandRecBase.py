@@ -32,23 +32,43 @@ def main():
                 lst.append(lst_2)
 
             # Hand Sign Start Here
+            i=0
             for hand in lst:
-                if (hand[4][0] > hand[6][0] and hand[3][1] > hand[4][1] and hand[7][1] > hand[6][1]
+                # print(output.multi_handedness[i].classification[0].label)     # 'Left' or 'Right'
+                label = str(output.multi_handedness[i].classification[0].label)
+                if label == "Left":     # For Right Hand
+                    if (hand[4][0] > hand[6][0] and hand[3][1] > hand[4][1] and hand[7][1] > hand[6][1]
 and hand[7][1] > hand[6][1] and hand[11][1] > hand[10][1] and hand[15][1] > hand[14][1] and hand[19][1] > hand[18][1]\
 and hand[0][1] > hand[2][1] and hand[1][1] > hand[2][1] and hand[0][0] < hand[2][0] and hand[1][0] < hand[2][0]\
 and hand[4][0] < hand[3][0] and hand[2][1] > hand[11][1]):
-                    currChar = 'A'
-                elif (hand[4][0] > hand[6][0]):
-                    # Cotinue...
-                    currChar = ""
-                elif (hand[4][0] > hand[6][0]):
-                    # Cotinue...
-                    currChar = ""
-                elif (hand[4][0] > hand[6][0]):
-                    # Cotinue...
-                    currChar = ""
-                else:
-                    currChar = ""
+                        currChar = 'A'
+                    elif (hand[4][0] > hand[6][0]):
+                        # Cotinue...
+                        currChar = ""
+                    elif (hand[4][0] > hand[6][0]):
+                        # Cotinue...
+                        currChar = ""
+                    elif (hand[4][0] > hand[6][0]):
+                        # Cotinue...
+                        currChar = ""
+                    else:
+                        currChar = ""
+                elif label == "Right":  # For Left Hand
+                    if label == "Left":
+                        if (hand[4][0] > hand[6][0]):
+                            currChar = 'A'
+                        elif (hand[4][0] > hand[6][0]):
+                            # Cotinue...
+                            currChar = ""
+                        elif (hand[4][0] > hand[6][0]):
+                            # Cotinue...
+                            currChar = ""
+                        elif (hand[4][0] > hand[6][0]):
+                            # Cotinue...
+                            currChar = ""
+                        else:
+                            currChar = ""
+                i = i + 1
 
             if prevChar != currChar:
                 prevChar = currChar
