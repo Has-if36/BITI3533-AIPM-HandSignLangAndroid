@@ -105,14 +105,48 @@ def main():
 
                 if len(data) > 1:
                     avg = []
+                    max = []
+                    min = []
+                    difference = []
+                    max_round = []
+                    min_round = []
+                    avg_round = []
+                    diff_round = []
+                    index = []
                     for i in range(0, len(data[0])):
                         sum = 0
+                        temp_max = 0
+                        temp_min = 3999999999
                         for j in range(0, len(data)):
                             sum += data[j][i]
+                            if data[j][i] > temp_max:
+                                temp_max = data[j][i]
+                            if data[j][i] < temp_min:
+                                temp_min = data[j][i]
                         sum /= len(data)
                         avg.append(sum)
+                        max.append(temp_max)
+                        min.append(temp_min)
+                        temp_max = round(temp_max)
+                        temp_min = round(temp_min)
+                        difference.append(temp_max-temp_min)
+                        sum = round(sum)
+                        avg_round.append(sum)
+                        temp_diff=round((temp_max - temp_min) / 2)
+                        diff_round.append(temp_diff)
+                        min_round.append(sum - temp_diff)
+                        max_round.append(sum + temp_diff)
+                        index.append(i)
 
                     df['Read Avg'] = avg
+                    df['Read Max'] = max
+                    df['Read Min'] = min
+                    df['Read Difference'] = difference
+                    df['Round Avg'] = avg_round
+                    df['+/-'] = diff_round
+                    df['Round Min'] = min_round
+                    df['Round Max'] = max_round
+                    df['n'] = index
 
                 print(df)
                 i = 1
@@ -164,12 +198,39 @@ def calc_dist(hand):
     dist[22] = math.sqrt(math.pow((hand[8][0] - hand[12][0]), 2) + math.pow((hand[8][1] - hand[12][1]), 2))
     dist[23] = math.sqrt(math.pow((hand[12][0] - hand[16][0]), 2) + math.pow((hand[12][1] - hand[16][1]), 2))
     dist[24] = math.sqrt(math.pow((hand[16][0] - hand[20][0]), 2) + math.pow((hand[16][1] - hand[20][1]), 2))
+
+    dist[1] = dist[1] / dist[0] * 100
+    dist[2] = dist[2] / dist[0] * 100
+    dist[3] = dist[3] / dist[0] * 100
+    dist[4] = dist[4] / dist[0] * 100
+    dist[5] = dist[5] / dist[0] * 100
+    dist[6] = dist[6] / dist[0] * 100
+    dist[7] = dist[7] / dist[0] * 100
+    dist[8] = dist[8] / dist[0] * 100
+    dist[9] = dist[9] / dist[0] * 100
+    dist[10] = dist[10] / dist[0] * 100
+    dist[11] = dist[11] / dist[0] * 100
+    dist[12] = dist[12] / dist[0] * 100
+    dist[13] = dist[13] / dist[0] * 100
+    dist[14] = dist[14] / dist[0] * 100
+    dist[15] = dist[15] / dist[0] * 100
+    dist[16] = dist[16] / dist[0] * 100
+    dist[17] = dist[17] / dist[0] * 100
+    dist[18] = dist[18] / dist[0] * 100
+    dist[19] = dist[19] / dist[0] * 100
+    dist[20] = dist[20] / dist[0] * 100
+    dist[21] = dist[21] / dist[0] * 100
+    dist[22] = dist[22] / dist[0] * 100
+    dist[23] = dist[23] / dist[0] * 100
+    dist[24] = dist[24] / dist[0] * 100
+
     return dist
 
 
 def prep_rule(dist):
     dist_rule = [0] * 25
 
+    # This is similar to, dist[1] / dist[0] * dist_rule[0] = dist_rule[1]
     # 0 is distance for ratio
     dist_rule[0] = 100
     ratio = dist_rule[0] / dist[0]
