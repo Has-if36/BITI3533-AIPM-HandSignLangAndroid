@@ -4,8 +4,10 @@ import time
 import math
 
 
-alpha_log = ['']*20
+alpha_log = ['']*5
 curr_alpha = ''
+sd = 15
+
 
 def main():
     global alpha_log, curr_alpha
@@ -56,7 +58,7 @@ def main():
             alpha_log.append('')
 
         for i in range(0, len(alpha_log)-1):
-            if curr_alpha == alpha_log[i] or curr_alpha == '':
+            if curr_alpha == alpha_log[i]:
                 alpha_sim = True
 
         if not alpha_sim:
@@ -99,12 +101,18 @@ def hand_rule(dist):
     global alpha_log, curr_alpha
     curr_alpha = ''
     # Error +15
-    if (31 < dist[1] < 91 and 23 < dist[2] < 69 and 9 < dist[3] < 51 and 44 < dist[4] < 102 and
-            0 < dist[5] < 43 and 16 < dist[6] < 60 and 0 < dist[7] < 21 and 4 < dist[8] < 40 and
-            0 < dist[9] < 45 and 24 < dist[10] < 74 and 0 < dist[11] < 26 and 6 < dist[12] < 40 and
-            0 < dist[13] < 39 and 18 < dist[14] < 68 and 0 < dist[15] < 23 and 15 < dist[16] < 47 and
-            0 < dist[17] < 24 and 6 < dist[18] < 28 and 0 < dist[19] < 24 and 2 < dist[20] < 44 and
-            34 < dist[21] < 86 and 0 < dist[22] < 36 and 1 < dist[23] < 47 and 6 < dist[24] < 44):
+    if (dist[1] > 46 - sd and dist[1] < 76 + sd and dist[2] > 38 - sd and dist[2] < 54 + sd and
+            dist[3] > 24 - sd and dist[3] < 36 + sd and dist[4] > 59 - sd and dist[4] < 87 + sd and
+            dist[5] > 14 - sd and dist[5] < 28 + sd and dist[6] > 31 - sd and dist[6] < 45 + sd and
+            dist[7] > 2 - sd and dist[7] < 6 + sd and dist[8] > 19 - sd and dist[8] < 25 + sd and
+            dist[9] > 12 - sd and dist[9] < 30 + sd and dist[10] > 39 - sd and dist[10] < 59 + sd and
+            dist[11] > 5 - sd and dist[11] < 11 + sd and dist[12] > 21 - sd and dist[12] < 25 + sd and
+            dist[13] > 12 - sd and dist[13] < 24 + sd and dist[14] > 33 - sd and dist[14] < 53 + sd and
+            dist[15] > 2 - sd and dist[15] < 8 + sd  and dist[16] > 20 - sd and dist[16] < 32 + sd and
+            dist[17] > 3 - sd and dist[17] < 9 + sd and dist[18] > 21 - sd and dist[18] < 33 + sd and
+            dist[19] > 1 - sd and dist[19] < 9 + sd and dist[20] > 17 - sd and dist[20] < 29 + sd and
+            dist[21] > 39 - sd and dist[21] < 71 + sd and dist[22] > 15 - sd and dist[22] < 21 + sd and
+            dist[23] > 16 - sd and dist[23] < 32 + sd and dist[24] > 21 - sd and dist[24] < 29 + sd):
         curr_alpha = "A"
 
     alpha_log.pop(0)
