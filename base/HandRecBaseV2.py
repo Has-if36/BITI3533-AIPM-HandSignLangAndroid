@@ -11,7 +11,7 @@ def main():
     windowName = "Hand Tracker"
     cap = cv2.VideoCapture(0)
     mpHands = mp.solutions.hands
-    hands = mpHands.Hands()
+    hands = mpHands.Hands(max_num_hands=1)
     mpDraw = mp.solutions.drawing_utils
     pTime = time.time()
     succ = True
