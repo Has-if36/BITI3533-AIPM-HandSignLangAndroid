@@ -1,0 +1,11 @@
+# Training Setting
+hidden_layer=130,26
+epoch=1000
+learning_rate=0.03
+momentum=0.9
+error_epsilon=0.0015
+decay=False
+shuffle=True
+normalize=True
+
+weight=[[],[]]
