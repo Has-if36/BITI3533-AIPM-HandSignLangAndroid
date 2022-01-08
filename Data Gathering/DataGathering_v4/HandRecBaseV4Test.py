@@ -10,7 +10,8 @@ from tensorflow import keras
 alpha_log = ['']*5
 curr_alpha = ''
 sd = 8
-model = tf.keras.models.load_model('hand_sign_model.h5')
+model = tf.keras.models.load_model('./model/hand_sign_model_v5.h5')
+np.set_printoptions(suppress=True)
 
 num_to_alpha = {
     -1: '-',
@@ -97,6 +98,8 @@ def main():
     data = [[1] * len(title[0])] * len(title)
     # data = np.array(np.zeros([len(title[0])] * len(title)))
 
+    top_n = 10
+
     while succ:
         (succ, img) = cap.read()
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -128,7 +131,7 @@ def main():
 
         interval = time.time() - start_interval
         if interval >= 0.25:
-            print("Reading Hand")
+            # print("Reading Hand")
             start_interval = time.time()
             data.pop(0)
             if dist:
@@ -138,15 +141,23 @@ def main():
 
             array = np.array(data).flatten()
             array = np.array([array, ])
+
             try:
                 pred = model.predict(array)
 
                 for out in pred:
-                    max = np.amax(out)
-                    max_index = np.argmax(out)
-                    print(num_to_alpha[max_index], max)
-            except:
-                print("Failed to Detect")
+                    sort_index = np.argsort(out)[::-1]
+                    sort_conf = np.sort(out)[::-1]
+                    out_print = ''
+                    for j in range(0, top_n):
+                        out_print += num_to_alpha[sort_index[j]] + ' {:.2f}%\t'.format(sort_conf[j] * 100)  # str(round(sort_conf[j] * 100, 2))
+                    print(out_print)
+
+                    # max = np.amax(out)
+                    # max_index = np.argmax(out)
+                    # print(num_to_alpha[max_index], max)
+            except Exception as e:
+                print("Failed to Detect: ", e)
                 print(array.shape)
 
         cTime = time.time()
@@ -197,6 +208,7 @@ def main():
     cv2.destroyAllWindows()
 
 
+"""
 def hand_rule(dist):
     global i, alpha_log, curr_alpha, title
     curr_alpha = ''
@@ -231,6 +243,7 @@ def hand_rule(dist):
     alpha_log.append(curr_alpha)
 
     return True
+"""
 
 
 def calc_dist(hand):

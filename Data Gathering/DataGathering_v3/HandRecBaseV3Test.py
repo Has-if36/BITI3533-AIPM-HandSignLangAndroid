@@ -315,6 +315,7 @@ def hand_rule(dist):
                 data[41][0] - sd < dist[41] < data[41][1] + sd and data[42][0] - sd < dist[42] < data[42][1] + sd and
                 data[43][0] - sd < dist[43] < data[43][1] + sd and data[44][0] - sd < dist[44] < data[44][1] + sd):
             curr_alpha = alphas[i]
+            break
 
     alpha_log.pop(0)
     alpha_log.append(curr_alpha)

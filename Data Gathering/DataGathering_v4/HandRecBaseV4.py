@@ -6,6 +6,12 @@ import pandas as pd
 import numpy as np
 import os
 
+# Modifiable
+LETTER = '-'
+link = '192.168.1.3'
+
+# Non-Modifiable
+link = 'https://' + link + ':8080/video'
 dist_variance = 15
 # For Every 2 Frames, for 30 frame (30 / 2 = 15)
 title = [
@@ -47,14 +53,22 @@ title = [
             ]
         ]
 letter = []
+LETTER = LETTER.upper()
 additional_item = 1  # which is Output
-print(len(title) * len(title[0]))
+# print(len(title) * len(title[0]))
+
+
+def str_t(msg):
+    strike_msg = ''
+    for each in msg:
+        strike_msg += each + '\u0336'
+    return strike_msg
 
 
 def main():
     global title
     windowName = "Hand Tracker"
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(link)
     mpHands = mp.solutions.hands
     hands = mpHands.Hands(max_num_hands=1)
     mpDraw = mp.solutions.drawing_utils
@@ -69,10 +83,12 @@ def main():
 
     data = list()
     temp_data = list()
-    print("System will print ONCE when value reaches 95-105")
-    print("Press 'Z' to test distance")
-    print("Press 'Space' to scan")
-    print("NOTE: Only possible for ONE hand")
+    # print("System will print ONCE when value reaches 95-105")
+
+    print(str_t("Press 'Z' to Test Distance"), 'UNUSED')
+    print("Press 'X' to Remove Previous Reading")
+    print("Press 'SPACE' to scan")
+    print("NOTE: Reads only ONE hand at a time")
 
     while succ:
         (succ, img) = cap.read()
@@ -114,23 +130,37 @@ def main():
                 detection_count = detection_count + 1
 
                 if detection_count == len(title):
-                    character = ''
+                    character = LETTER
+                    print('Alphabet ', character)
                     print("Reading Number ", read_num)
-                    while True:
-                        character = input("['A'-'Z'] | '/' to Cancel \nWhat letter is this? : ")
-                        character = character.upper()
-                        if 65 <= ord(character) <= 90:
-                            read_num = read_num + 1
-                            data.append(temp_data)
-                            letter.append(character)
-                            break
-                        elif character == '/':
-                            print("This data has been Cancelled")
-                            break
+
+                    character = character.upper()
+                    read_num = read_num + 1
+                    data.append(temp_data)
+                    letter.append(character)
+
+                    # while True:
+                    #     character = input("['A'-'Z'] | '/' to Cancel \nWhat letter is this? : ")
+                    #     character = character.upper()
+                    #     if 65 <= ord(character) <= 90:
+                    #         read_num = read_num + 1
+                    #         data.append(temp_data)
+                    #         letter.append(character)
+                    #         break
+                    #     elif character == '/':
+                    #         print("This data has been Cancelled")
+                    #         break
 
         cTime = time.time()
         fps = 1 / (cTime - pTime)
         pTime = cTime
+
+        new_width = 0
+        new_height = 0
+        if img.shape[1] > 480:
+            new_width = round(img.shape[1] / img.shape[0] * 480)
+            new_height = round(img.shape[0] / img.shape[1] * new_width)
+        img = cv2.resize(img, (new_width, new_height))
 
         cv2.putText(img, "FPS: " + str(int(fps)), (10, 35), cv2.FONT_HERSHEY_PLAIN, 2, (255, 0, 255), 3)
         cv2.imshow(windowName, img)
@@ -156,6 +186,8 @@ def main():
                 print("Distance: ", distance)
             print("\n")
             """
+
+        # 'Z' Button
         elif pressedKey == 90 or pressedKey == 122:
             try:
                 if 100 - dist_variance <= dist[0][0] <= 100 + dist_variance:
@@ -166,11 +198,25 @@ def main():
                     print("Get your hand further from Camera")
             except:
                 print("Hand not Detected")
+
+        # 'SPACE' Button
         elif pressedKey == 32:
-            print("Detecting for around 1.5 second & Printing")
+            print("Detecting for around 1.5 second & Printing",)
             # detection = True
             detection_count = 0
             temp_data = list()
+
+        # 'X' Button
+        elif pressedKey == 88 or pressedKey == 120:
+            print("Removed Reading")
+            try:
+                data.pop(len(data) - 1)
+                letter.pop(len(letter) - 1)
+                read_num = read_num - 1
+            except Exception as e:
+                print('Error:', e)
+
+        # 'ESC' Button or Close Window
         elif pressedKey == 27 or cv2.getWindowProperty(windowName, cv2.WND_PROP_VISIBLE) < 1:
             reshape_title = []
             temp = []
@@ -234,7 +280,7 @@ def main():
                 df_T = df.set_index('Distances').T
                 print(df_T)
                 i = 1
-                filename = "read_" + str(i)
+                filename = "read_" + LETTER.lower() + '_' + str(i)
 
                 if not os.path.exists(r"./HandRecBaseV4_output"):
                     os.mkdir(r"./HandRecBaseV4_output")
