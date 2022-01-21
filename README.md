@@ -10,8 +10,7 @@ Project Members:
   2) Muhammad Naqib Hakimi bin Hakmal
   3) Aiman Faris b. Mazri
 
-# Download APK
-Link = https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing
+Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
 # Introduction
 
