@@ -24,6 +24,19 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 2) To help people to communicate with mute or deaf people
 3) To help people learn and practice this language
 
+## Design & Model
+
+There are 2 layers of AI implemented in this project:
+  1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
+  2. Neural Network (To trace the hand signs)
+    - Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
+    - Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
+    - Layer 3 / Output Layer (26 Nodes)
+
+## Data
+
+Data were gathered manually 
+
 ## Screenshots
 
 ![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
