@@ -39,7 +39,7 @@ Data were gathered manually. The data gathering was improvised and updated up un
 
 ![Sample Data](./image/sample_data.png)
 
-There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 feature in each section are the distance of each nodes from the hand tracking.
+There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 [0-24] feature in each section are the distance of each nodes from the hand tracking.
 
 ![HandRecRef](./image/HandRecBaseV2_ref.png)
 
