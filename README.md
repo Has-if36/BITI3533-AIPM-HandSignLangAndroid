@@ -29,9 +29,9 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 There are 2 layers of AI implemented in this project:
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
   2. Neural Network (To trace the hand signs)\n
-      1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
-      2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
-      3. Layer 3 / Output Layer (26 Nodes)
+    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
+    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
+    3. Layer 3 / Output Layer (26 Nodes)
 
 ## Data
 
@@ -43,16 +43,22 @@ There are total of 150 (25x6) features inside the data. These features are divid
 
 ![HandRecRef](./image/HandRecBaseV2_ref.png)
 
+## Comparing with CNN Model
+As far as we understand,
+### Pros over CNN
+  - Simple, meaning it can run faster
+  - It capable of capture hand sign with motion like alphabet J and Z
+
+### Cons over CNN
+  - Less Accurate
+  - It will continuously reads the hand sign even though the user does not have the intention to make a hand sign
+
+## Deployment
+
+Android Studio was used to develop and deploy into apps. 
+
 ## Screenshots
 
 ![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
- 
- Figure 1: The UI of the main page
- 
 ![Picture2](https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg)
-
- Figure 2: UI for the alphabets
-
 ![Picture3](https://user-images.githubusercontent.com/55174887/150564353-2ec0953b-2e8c-4145-ba29-54ab0cda0d8f.jpg)
-
- Figure 3: The UI for one of the alphabets
