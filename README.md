@@ -35,7 +35,9 @@ There are 2 layers of AI implemented in this project:
 
 ## Data
 
-Data were gathered manually 
+Data were gathered manually. The data gathering was improvised and updated up until Version 4. HandRecBaseV4.py was used to gather the data. The gathered data was trained using hand_sign_nn.ipynb and then tested using HandRecBaseV4Test.py.
+
+![Sample Data](./image/sample_data.png)
 
 ## Screenshots
 
