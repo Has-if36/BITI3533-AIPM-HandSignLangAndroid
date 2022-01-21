@@ -63,7 +63,8 @@ Apps can be downloaded from [here](https://drive.google.com/file/d/1VqzHEgbA8Bqp
 ![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
 ![Picture2](https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg)
 ![Picture3](https://user-images.githubusercontent.com/55174887/150564353-2ec0953b-2e8c-4145-ba29-54ab0cda0d8f.jpg)
-
+![Result](./image/result_1.png)
+![Interface](./image/result_2.png)
 
 1. Spaces for Character to build into word
 2. Letter that was recognised
