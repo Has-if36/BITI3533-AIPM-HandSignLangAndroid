@@ -47,7 +47,7 @@ There are total of 150 (25x6) features inside the data. These features are divid
 As far as we understand,
 ### Pros over CNN
   - Simple, meaning it can run faster
-  - It capable of capture hand sign with motion like alphabet J and Z
+  - It capable of capturing hand sign with motion like alphabet J and Z
 
 ### Cons over CNN
   - Less Accurate
@@ -55,7 +55,8 @@ As far as we understand,
 
 ## Deployment
 
-Android Studio was used to develop and deploy into apps. 
+Android Studio was used to develop and deploy into apps.
+Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
 ## Screenshots
 
