@@ -56,7 +56,7 @@ As far as we understand,
 ## Deployment
 
 Android Studio was used to develop and deploy into apps.
-Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
+Apps can be downloaded from [here](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
 ## Screenshots
 
