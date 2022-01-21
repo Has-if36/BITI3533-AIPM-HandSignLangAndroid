@@ -39,6 +39,10 @@ Data were gathered manually. The data gathering was improvised and updated up un
 
 ![Sample Data](./image/sample_data.png)
 
+There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 feature in each section are the distance of each nodes from the hand tracking.
+
+![HandRecRef](./image/HandRecBaseV2_ref.png)
+
 ## Screenshots
 
 ![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
