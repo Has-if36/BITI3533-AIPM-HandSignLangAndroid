@@ -106,7 +106,18 @@ Figure D.5 shows the codes for the data gathering. In this part of code, the pro
 ![Picture3](https://user-images.githubusercontent.com/55174887/150564353-2ec0953b-2e8c-4145-ba29-54ab0cda0d8f.jpg)\
 <img src="./image/result_1.png" alt="Result" width="205"/>
 <img src="./image/result_2.png" alt="Interface" width="205"/>
+<p align="center">
+  <img width="191" height="408" src="https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg">
+  <img width="191" height="408" src="https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg">
+  <img width="191" height="408" src="https://user-images.githubusercontent.com/55174887/150564353-2ec0953b-2e8c-4145-ba29-54ab0cda0d8f.jpg">
+  <br>
+  <img width="205" height="408" src="./image/result_1.png">
+  <img width="205" height="408" src="./image/result_2.png">
+  <br>
+  <em>Figure D.6: Result of the Project</em>
+</p>
 
+Figure D.6 shows the output from the project. On the bottom right image, they are the interfaces for:
 1. Spaces for Character to build into word
 2. Letter that was recognised
 3. Button to add space into (1)
