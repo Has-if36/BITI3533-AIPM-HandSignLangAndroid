@@ -28,6 +28,7 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 3) To help people learn and practice this language
 
 ## B. Planning the Project
+## C. Implementing The Project Plan
 ### Design & Model
 
 There are 2 layers of AI implemented in this project:
