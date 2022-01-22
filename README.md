@@ -91,7 +91,13 @@ As far as we understand,
   <em>Figure D.5: Codes for the Data Gathering</em>
 </p>
 
-Figure D.5 shows the codes for the data gathering. In this part of code, the program will capture the 25 distances every 0.25 seconds.
+Figure D.5 shows the codes for the data gathering. In this part of code, the program will capture the 25 distances every 0.25 seconds. When the program has scanned for 6 times, it will stop collecting the data and ready to collect for the next data.
+
+<p align="center">
+  <img width="564" height="500" src="./image/data_code.png">
+  <br>
+  <em>Figure D.5: Codes for Mobile Development</em>
+</p>
 
 ### Project Result
 
