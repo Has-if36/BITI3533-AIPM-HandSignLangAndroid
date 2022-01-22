@@ -46,6 +46,7 @@ Figure D.1 shows how the system works. There are 2 layers of AI implemented in t
     <br>
     <em>Figure D.2: Neural Network</em>
     </p>
+    Figure D.2 Shows the design for the Neural Network:
       1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
       2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
       3. Layer 3 / Output Layer (26 Nodes)
@@ -62,9 +63,15 @@ Data were gathered manually. The data gathering was improvised and updated up un
   <em>Figure D.3: Sample Data Gathered for Training Model</em>
 </p>
 
-There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 [0-24] feature in each section are the distance of each nodes from the hand tracking.
+Figure D.3 shows the sample of the training data. Iniside this data, there are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to make the system to have a capability to capture hand sign which has motion. The 25 [0-24] feature in each section are the distance of 2 Points from the hand tracking.
 
-![HandRecRef](./image/HandRecBaseV2_ref.png)
+<p align="center">
+  <img width="476" height="511" src="./image/HandRecBaseV2_ref.png">
+  <br>
+  <em>Figure D.4: Reference for the Feature</em>
+</p>
+
+Figure D.4 shows the reference for the feature where from 0 to 24 are the distances of 2 Points as mentioned. Each section has a delay of 0.25 seconds. This means that, for the gathering data, the program will read the data every 0.25 seconds, for 6 times. Thus, the system should be able to capture hand sign that has motion of up to 1.5 seconds.
 
 ### Comparing with CNN Model
 As far as we understand,
