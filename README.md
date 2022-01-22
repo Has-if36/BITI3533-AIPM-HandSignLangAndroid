@@ -1,6 +1,6 @@
 # Hand Sign Language Entepreter (HaSLI)
 
-## A. Defining the Project
+## A. DEFINING THE PROJECT
 <img src="https://user-images.githubusercontent.com/55174887/150554531-dd21514d-cdeb-4809-8835-539c7e691ee3.png" width="200" height="200" />
 
 Lecturer : Prof. Dr. Goh Ong Sing
@@ -12,8 +12,6 @@ Project Members:
   3) Aiman Faris b. Mazri
 
 Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
-
-[![https://www.youtube.com/watch?v=ALqI2aP-8_c](https://res.cloudinary.com/marcomontalbano/image/upload/v1642827633/video_to_markdown/images/youtube--ALqI2aP-8_c-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/ALqI2aP-8_c "https://www.youtube.com/watch?v=ALqI2aP-8_c")
 
 ### Introduction
 
@@ -27,9 +25,9 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 2) To help people to communicate with mute or deaf people
 3) To help people learn and practice this language
 
-## B. Planning the Project
-## C. Implementing the Project
-## D. Executing the Project
+## B. PLANNING THE PROJECT
+## C. IMPLEMENTING THE PROJECT PLAN
+## D. EXECUTING THE PROJECT
 ### Design & Model
 
 There are 2 layers of AI implemented in this project:
@@ -81,4 +79,7 @@ Apps can be downloaded from [here](https://drive.google.com/file/d/1VqzHEgbA8Bqp
 7. Frame rate
 8. Button to go to Hand Sign List
 
-## E. Closing The Project 
+## E. COMPLETING THE PROJECT
+
+## F PROJECT PRESENTATION
+[![https://www.youtube.com/watch?v=ALqI2aP-8_c](https://res.cloudinary.com/marcomontalbano/image/upload/v1642827633/video_to_markdown/images/youtube--ALqI2aP-8_c-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/ALqI2aP-8_c "https://www.youtube.com/watch?v=ALqI2aP-8_c")
