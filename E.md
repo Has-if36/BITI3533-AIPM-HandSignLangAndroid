@@ -7,7 +7,7 @@
 
 ### 2. Lesson Learned
 <p align="center">
-  <img width="500" height="800" src="https://user-images.githubusercontent.com/55343638/150642258-0aae44db-924a-4d0d-94f9-ca1b59a96b04.png">
+  <img width="602" height="736" src="https://user-images.githubusercontent.com/55343638/150642579-e772d7a3-6e01-4295-b587-aabadb3dba75.png">
   <br>
   Figure E.2: Lesson Learned Report for the Project
 </p>
