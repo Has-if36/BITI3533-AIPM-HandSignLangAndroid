@@ -12,7 +12,7 @@ Project Members:
 
 Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
-[![Watch the video](https://img.youtube.com/vi/ALqI2aP-8_c/maxresdefault.jpg)](https://youtu.be/ALqI2aP-8_c)
+<a href="{https://youtu.be/ALqI2aP-8_c}" title="Hand Sign Language Intepreter (HaSLI) - AD ASTRA"><img src="{https://img.youtube.com/vi/ALqI2aP-8_c/maxresdefault.jpg}" alt="Hand Sign Language Intepreter (HaSLI) - AD ASTRA" /></a>
 
 ## Introduction
 
