@@ -1,5 +1,6 @@
 # Hand Sign Language Entepreter (HaSLI)
 
+## A. Defining the Project
 <img src="https://user-images.githubusercontent.com/55174887/150554531-dd21514d-cdeb-4809-8835-539c7e691ee3.png" width="200" height="200" />
 
 Lecturer : Prof. Dr. Goh Ong Sing
