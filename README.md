@@ -42,7 +42,7 @@ Figure D.1 shows how the system works. There are 2 layers of AI implemented in t
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
   2. Neural Network (To trace the hand signs)
     <p align="center">
-    <img width="598" height="151" src="./image/NueralNet.png">
+    <img width="598" height="151" src="./image/NeuralNet.png">
     <br>
     <em>Figure D.2: Neural Network</em>
     </p>
