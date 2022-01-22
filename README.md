@@ -94,10 +94,12 @@ As far as we understand,
 Figure D.5 shows the codes for the data gathering. In this part of code, the program will capture the 25 distances every 0.25 seconds. When the program has scanned for 6 times, it will stop collecting the data and ready to collect for the next data.
 
 <p align="center">
-  <img width="564" height="500" src="./image/data_code.png">
+  <img width="586" height="500" src="./image/mobile_code.png">
   <br>
-  <em>Figure D.5: Codes for Mobile Development</em>
+  <em>Figure D.6: Codes for Mobile Development</em>
 </p>
+
+Figure D.6 shows the code section for the Camera Activity. This part of code is based on MediaPipe's method to initialise the camera and use the model. Other than Camera, Images and Videos can be used. But these two functions were unused and removed (most of them) for this project as we want to make a real time hand sign language interpretation. Hand Tracking will be run on GPU to ensure the performance of the app.
 
 ### Project Result
 <p align="center">
@@ -108,10 +110,10 @@ Figure D.5 shows the codes for the data gathering. In this part of code, the pro
   <img width="205" height="408" src="./image/result_1.png">
   <img width="205" height="408" src="./image/result_2.png">
   <br>
-  <em>Figure D.6: Result of the Project</em>
+  <em>Figure D.7: Result of the Project</em>
 </p>
 
-Figure D.6 shows the output from the project. On the bottom right image, they are the interfaces for:
+Figure D.7 shows the output from the project. On the bottom right image, they are the interfaces for:
 1. Spaces for Character to build into word
 2. Letter that was recognised
 3. Button to add space into (1)
