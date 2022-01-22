@@ -12,4 +12,4 @@
   Figure E.2: Lesson Learned Report for the Project
 </p>
 
-
+:white_check_mark: https://github.com/Has-if36/BITI3533-AIPM-HandSignLangAndroid
