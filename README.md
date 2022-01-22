@@ -27,6 +27,8 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 2) To help people to communicate with mute or deaf people
 3) To help people learn and practice this language
 
+## B. Planning the Project
+## C. Implementing the Project
 ## D. Executing the Project
 ### Design & Model
 
@@ -78,3 +80,5 @@ Apps can be downloaded from [here](https://drive.google.com/file/d/1VqzHEgbA8Bqp
 6. Button to switch the camera
 7. Frame rate
 8. Button to go to Hand Sign List
+
+## E. Closing The Project 
