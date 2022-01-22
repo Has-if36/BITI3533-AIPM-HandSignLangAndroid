@@ -2,10 +2,10 @@
 
 ## A. DEFINING THE PROJECT
 
-<p align="left">
-  Developed by Ad Astra Sdn. Bhd.
-  <br>
+<p align="center">
   <img width="200" height="200" src="https://user-images.githubusercontent.com/55174887/150628368-dc441e3d-01f0-4a7d-ab44-db3d2212d9be.png">
+  <br>
+  Developed by Ad Astra Sdn. Bhd.
 </p>
 
 Lecturer : Prof. Dr. Goh Ong Sing
