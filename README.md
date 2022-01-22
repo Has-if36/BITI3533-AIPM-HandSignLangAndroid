@@ -31,7 +31,7 @@ Project Members:
             <td>B031910153</td>
         </tr>
         <tr>
-            <td colspan=3>Project Member</td>
+            <td rowspan=3>Project Member</td>
             <td>Hasif bin Mohamad Noh</td>
             <td>B031910102</td>
         </tr>
