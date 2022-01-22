@@ -51,7 +51,11 @@ Figure D.1 shows how the system works. There are 2 layers of AI implemented in t
 
 Data were gathered manually. The data gathering was improvised and updated up until Version 4. HandRecBaseV4.py was used to gather the data. The gathered data was trained using hand_sign_nn.ipynb and then tested using HandRecBaseV4Test.py.
 
-![Sample Data](./image/sample_data.png)
+<p align="center">
+  <img width="1000" height="387" src="./image/sample_data.png">
+  <br>
+  <em>Figure D.2: Sample Data from Gathered Data for Training Model</em>
+</p>
 
 There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 [0-24] feature in each section are the distance of each nodes from the hand tracking.
 
@@ -59,7 +63,7 @@ There are total of 150 (25x6) features inside the data. These features are divid
 
 ### Comparing with CNN Model
 As far as we understand,
-### Pros over CNN
+#### Pros over CNN
   - Simple, meaning it can run faster
   - It capable of capturing hand sign with motion like alphabet J and Z
 
