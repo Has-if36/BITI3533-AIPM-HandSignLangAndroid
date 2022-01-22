@@ -1,4 +1,4 @@
-# Hand Sign Language Entepreter (HaSLI)
+# Hand Sign Language Intrepreter (HaSLI)
 
 ## A. DEFINING THE PROJECT
 
