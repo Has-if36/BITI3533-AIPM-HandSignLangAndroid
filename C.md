@@ -10,7 +10,7 @@
 #### Milestone Chart
 Milestone  | Scheduled Completion | Actual Completion
 ------------- | ------------- | -----------------
-Planning  | Content Cell | 
-Analysis  | Content Cell |
-Design  | Content Cell |
-Implementation | Content Cell |
+Planning  | 22 October 2021 | 23 October 2021
+Analysis  | 28 October 2021 | 29 October 2021
+Design  | 29 October 2021 | 31 October 2021
+Implementation | 3 December 2021 | 6 December 2021
