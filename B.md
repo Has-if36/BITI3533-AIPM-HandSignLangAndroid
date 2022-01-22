@@ -11,7 +11,7 @@ Project manamgement life-cycle is important in any softwares developments projec
 A tree structure has been made to see the phases in more detail. Each of the phases has its own children(tasks). 
 
 <p align="center">
-    <img width="1954" height="871" src="./image/Tree.png">
+    <img width="1500" height="871" src="./image/Tree.png">
     <br>
     <em>Figure 2: Tree Structure of WBS</em>
 </p>
