@@ -36,7 +36,7 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 Project manamgement life-cycle is important in any softwares developments projects. It has its own phases and each of it has its own tasks. The phases are Initiation, Planning, Execution, Performance/Monitoring, and Closing. Work Breakdown Struture has been made to make sure every members has its own tasks to do.
 
 <p align="center">
-    <img width="1553" height="713" src="./image/WBS.png">
+    <img width="1092" height="500" src="./image/WBS.png">
     <br>
     <em>Figure 1: Work Breakdown Structure</em>
 </p>
