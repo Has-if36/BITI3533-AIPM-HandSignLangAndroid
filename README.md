@@ -10,7 +10,7 @@
 
 Customer : Society of Intepreters for the Deaf
 
-Project Name : Hand Sign Language Entepreter (HaSLI)
+Project Name : Hand Sign Language Intepreter (HaSLI)
 
 Lecturer : Prof. Dr. Goh Ong Sing
 
