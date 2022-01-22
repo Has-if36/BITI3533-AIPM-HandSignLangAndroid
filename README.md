@@ -16,6 +16,7 @@ Project Members:
   2) Muhammad Naqib Hakimi bin Hakmal (B031910407)
   3) Aiman Faris b. Mazri (B031910126)
   |Name|Matric Num.
+  --- | --- | ---
 Project Manager|Ahmad Syazani Aniq bin Ahmad Khaizi|B031910153
   |Hasif bin Mohamad Noh|B031910102
 Project Member|Muhammad Naqib Hakimi bin Hakmal|B031910407
