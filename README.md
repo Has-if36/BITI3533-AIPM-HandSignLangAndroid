@@ -34,6 +34,8 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 
 <p align="center">
   <img width="598" height="151" src="./image/model.png">
+  <br>
+  <em>Figure D.1: Overview of the Model</em>
 </p>
 
 There are 2 layers of AI implemented in this project:
