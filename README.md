@@ -46,8 +46,8 @@ Figure D.1 shows how the system works. There are 2 layers of AI implemented in t
     <br>
     <em>Figure D.2: Neural Network</em>
     </p>
-    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
-    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
+    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)\
+    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)\
     3. Layer 3 / Output Layer (26 Nodes)
     
 
