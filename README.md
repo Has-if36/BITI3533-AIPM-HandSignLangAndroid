@@ -8,7 +8,7 @@
   Developed by Ad Astra Sdn. Bhd.
 </p>
 
-Customer : Educator
+Customer : Society of Intepreters for the Deaf
 
 Project Name : Hand Sign Language Entepreter (HaSLI)
 
