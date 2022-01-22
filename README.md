@@ -33,6 +33,9 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 ### Design & Model
 
 ![Model](./image/model.png)
+<p align="center">
+  <img width="598" height="151" src="./image/model.png">
+</p>
 
 There are 2 layers of AI implemented in this project:
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
