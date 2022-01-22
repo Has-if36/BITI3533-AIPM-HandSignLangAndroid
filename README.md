@@ -68,7 +68,7 @@ Project manamgement life-cycle is important in any softwares developments projec
 <p align="center">
     <img width="1092" height="500" src="./image/WBS.png">
     <br>
-    <em>Figure 1: Work Breakdown Structure</em>
+    <em>Figure B.1: Work Breakdown Structure</em>
 </p>
 
 A tree structure has been made to see the phases in more detail. Each of the phases has its own children(tasks). 
@@ -76,7 +76,7 @@ A tree structure has been made to see the phases in more detail. Each of the pha
 <p align="center">
     <img width="1122" height="500" src="./image/Tree.png">
     <br>
-    <em>Figure 2: Tree Structure of WBS</em>
+    <em>Figure B.2: Tree Structure of WBS</em>
 </p>
 
 ### Risk Identification Chart
@@ -88,7 +88,7 @@ Cost | Some softwares licenses and equipments are costly | During the cost manag
 Time | Take time to develop a mobile-based app | During the implementation phase where there were some erros during the development | Find the solutions from various sources
 
 <p align="center">
-  <em>Table 1: Risk Identification Chart</em>
+  <em>Table B.1: Risk Identification Chart</em>
 </p>
 
 ### Responsibility Assignment Matrices (RAM)
@@ -96,7 +96,7 @@ Time | Take time to develop a mobile-based app | During the implementation phase
 <p align="center">
     <img width="272" height="548" src="./image/RAM.png">
     <br>
-    <em>Figure 3: Responsibility Assignment Matrices</em>
+    <em>Figure B.3: Responsibility Assignment Matrices</em>
 </p>
 
 ### Team Responsibility
@@ -109,7 +109,7 @@ Muhammad Naqib Hakimi Bin Hakmal | Human Resource | Plan the tasks and works tha
 Aiman Faris Bin Mazri | Designer | Design the whole app's interfaces and gui
 
 <p align="center">
-  <em>Table 2: Team Responsibility</em>
+  <em>Table B.2: Team Responsibility</em>
 </p>
 
 ### Project Planning Summary
@@ -120,7 +120,7 @@ Mobile App Development | RM 20000 | 6/11/2021-12/12/2021 | Hasif, Aiman
 AI Module | RM 30000 | 25/10/2021-12/12/2021 | Hasif, Naqib, Aniq
  
 <p align="center">
-  <em>Table 3: Project Planning Summary</em>
+  <em>Table B.3: Project Planning Summary</em>
 </p>
 
 ## C. IMPLEMENTING THE PROJECT PLAN
