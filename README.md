@@ -83,12 +83,17 @@ As far as we understand,
   - Less Accurate
   - It will continuously reads the hand sign even though the user does not have the intention to make a hand sign
 
-### Deployment
+### Coding
 
-Android Studio was used to develop and deploy into apps.
-Apps can be downloaded from [here](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing).
+<p align="center">
+  <img width="564" height="500" src="./image/data_code.png">
+  <br>
+  <em>Figure D.5: Codes for the Data Gathering</em>
+</p>
 
-### Result
+Figure D.5 shows the codes for the data gathering. In this part of code, the program will capture the 25 distances every 0.25 seconds.
+
+### Project Result
 
 ![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
 ![Picture2](https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg)
