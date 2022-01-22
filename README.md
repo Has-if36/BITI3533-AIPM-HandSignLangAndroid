@@ -100,12 +100,6 @@ Figure D.5 shows the codes for the data gathering. In this part of code, the pro
 </p>
 
 ### Project Result
-
-![Picture1](https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg)
-![Picture2](https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg)
-![Picture3](https://user-images.githubusercontent.com/55174887/150564353-2ec0953b-2e8c-4145-ba29-54ab0cda0d8f.jpg)\
-<img src="./image/result_1.png" alt="Result" width="205"/>
-<img src="./image/result_2.png" alt="Interface" width="205"/>
 <p align="center">
   <img width="191" height="408" src="https://user-images.githubusercontent.com/55174887/150564341-4127e955-76dd-48c4-9fa3-8edddfc5e4e4.jpg">
   <img width="191" height="408" src="https://user-images.githubusercontent.com/55174887/150564347-40007410-8e8a-4114-9fb7-2bd733d21651.jpg">
