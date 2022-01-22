@@ -32,7 +32,6 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 ## D. EXECUTING THE PROJECT
 ### Design & Model
 
-![Model](./image/model.png)
 <p align="center">
   <img width="598" height="151" src="./image/model.png">
 </p>
