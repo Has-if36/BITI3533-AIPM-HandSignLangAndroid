@@ -9,6 +9,7 @@
 </p>
 
 Customer : Educator
+
 Project Name : Hand Sign Language Entepreter (HaSLI)
 
 Lecturer : Prof. Dr. Goh Ong Sing
