@@ -1,7 +1,9 @@
 # Hand Sign Language Entepreter (HaSLI)
 
 ## A. DEFINING THE PROJECT
-<img src="https://user-images.githubusercontent.com/55174887/150554531-dd21514d-cdeb-4809-8835-539c7e691ee3.png" width="200" height="200" />
+
+Developed by Ad Astra Sdn. Bhd.
+<img src="https://user-images.githubusercontent.com/55174887/150628368-dc441e3d-01f0-4a7d-ab44-db3d2212d9be.png" width="200" height="200" />
 
 Lecturer : Prof. Dr. Goh Ong Sing
 
