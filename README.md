@@ -26,23 +26,23 @@ Project Members:
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>Project Manager</td>
-            <td rowspan=2>Ahmad Syazani Aniq bin Ahmad Khaizi</td>
+            <td>Project Manager</td>
+            <td>Ahmad Syazani Aniq bin Ahmad Khaizi</td>
             <td>B031910153</td>
         </tr>
         <tr>
-            <td rowspan=4></td>
-            <td rowspan=2>Hasif bin Mohamad Noh</td>
+            <td></td>
+            <td>Hasif bin Mohamad Noh</td>
             <td>B031910102</td>
         </tr>
         <tr>
-            <td rowspan=4>Project Member</td>
-            <td rowspan=2>Muhammad Naqib Hakimi bin Hakmal</td>
+            <td>Project Member</td>
+            <td>Muhammad Naqib Hakimi bin Hakmal</td>
             <td>B031910407</td>
         </tr>
         <tr>
-            <td rowspan=4></td>
-            <td rowspan=2>Aiman Faris b. Mazri</td>
+            <td></td>
+            <td>Aiman Faris b. Mazri</td>
             <td>B031910126</td>
         </tr>
     </tbody>
