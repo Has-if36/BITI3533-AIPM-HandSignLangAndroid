@@ -8,9 +8,10 @@
 #### Task and Estimated Costs
 Task  | Estimated Costs | Notes
 ------------- | ------------- | -----------------
- Labor | 551,600 | 
- Implementation | 268,000 | Hardware and software
-Total | 819,600 | 
+ Labor | RM551,600 | 
+ Implementation | RM268,000 | Hardware and software
+ Testing | RM26,800 | Hardware and software
+Total | RM846,400 | 
 
 #### Milestone Chart
 Milestone  | Scheduled Completion | Actual Completion
