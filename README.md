@@ -10,12 +10,6 @@
 
 Lecturer : Prof. Dr. Goh Ong Sing
 
-Project Manager: Ahmad Syazani Aniq bin Ahmad Khaizi (B031910153)
-Project Members: 
-  1) Hasif bin Mohamad Noh (B031910102)
-  2) Muhammad Naqib Hakimi bin Hakmal (B031910407)
-  3) Aiman Faris b. Mazri (B031910126)
-  
 <table>
     <thead>
         <tr>
