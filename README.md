@@ -31,17 +31,15 @@ Project Members:
             <td>B031910153</td>
         </tr>
         <tr>
-            <td></td>
+            <td colspan=3>Project Member</td>
             <td>Hasif bin Mohamad Noh</td>
             <td>B031910102</td>
         </tr>
         <tr>
-            <td>Project Member</td>
             <td>Muhammad Naqib Hakimi bin Hakmal</td>
             <td>B031910407</td>
         </tr>
         <tr>
-            <td></td>
             <td>Aiman Faris b. Mazri</td>
             <td>B031910126</td>
         </tr>
