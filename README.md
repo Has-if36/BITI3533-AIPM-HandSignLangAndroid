@@ -40,7 +40,7 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 
 Figure D.1 shows how the system works. There are 2 layers of AI implemented in this project:
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
-  2. Neural Network (To trace the hand signs)
+  2. Neural Network (To read the hand signs)
     <p align="center">
     <img width="394" height="394" src="./image/NeuralNet.png">
     <br>
