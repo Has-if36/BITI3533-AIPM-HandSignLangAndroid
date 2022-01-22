@@ -40,9 +40,14 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 
 Figure D.1 shows how the system works. There are 2 layers of AI implemented in this project:
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
-  2. Neural Network (To trace the hand signs)\
-    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)\
-    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)\
+  2. Neural Network (To trace the hand signs)
+    <p align="center">
+    <img width="598" height="151" src="./image/NueralNet.png">
+    <br>
+    <em>Figure D.2: Neural Network</em>
+    </p>
+    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
+    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
     3. Layer 3 / Output Layer (26 Nodes)
     
 
@@ -54,7 +59,7 @@ Data were gathered manually. The data gathering was improvised and updated up un
 <p align="center">
   <img width="1000" height="387" src="./image/sample_data.png">
   <br>
-  <em>Figure D.2: Sample Data from Gathered Data for Training Model</em>
+  <em>Figure D.3: Sample Data Gathered for Training Model</em>
 </p>
 
 There are total of 150 (25x6) features inside the data. These features are divided into 6 sections. This is to have a capability to capture hand sign which has motion. The 25 [0-24] feature in each section are the distance of each nodes from the hand tracking.
