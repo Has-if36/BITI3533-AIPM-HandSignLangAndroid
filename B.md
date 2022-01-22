@@ -3,7 +3,7 @@
 Project manamgement life-cycle is important in any softwares developments projects. It has its own phases and each of it has its own tasks. The phases are Initiation, Planning, Execution, Performance/Monitoring, and Closing. Work Breakdown Struture has been made to make sure every members has its own tasks to do.
 
 <p align="center">
-    <img width="400" height="394" src="./image/WBS.png">
+    <img width="1553" height="713" src="./image/WBS.png">
     <br>
     <em>Figure 1: Work Breakdown Structure</em>
 </p>
@@ -11,7 +11,7 @@ Project manamgement life-cycle is important in any softwares developments projec
 A tree structure has been made to see the phases in more detail. Each of the phases has its own children(tasks). 
 
 <p align="center">
-    <img width="410" height="394" src="./image/Tree.png">
+    <img width="1954" height="871" src="./image/Tree.png">
     <br>
     <em>Figure 2: Tree Structure of WBS</em>
 </p>
@@ -31,7 +31,7 @@ Time | Take time to develop a mobile-based app | During the implementation phase
 ### Responsibility Assignment Matrices (RAM)
 
 <p align="center">
-    <img width="410" height="400" src="./image/RAM.png">
+    <img width="272" height="548" src="./image/RAM.png">
     <br>
     <em>Figure 3: Responsibility Assignment Matrices</em>
 </p>
