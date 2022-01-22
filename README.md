@@ -40,9 +40,9 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 
 Figure D.1 shows how the system works. There are 2 layers of AI implemented in this project:
   1. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) (Library to tracks hand)
-  2. Neural Network (To trace the hand signs)\n
-    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)
-    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)
+  2. Neural Network (To trace the hand signs)\
+    1. Layer 1 / Input Layer (150 Nodes, Sigmoid Activation Function)\
+    2. Layer 2 / Hidden Layer (150 Nodes, Sigmoid Activation Function)\
     3. Layer 3 / Output Layer (26 Nodes)
     
 
