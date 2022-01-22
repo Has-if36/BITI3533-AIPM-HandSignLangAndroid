@@ -253,6 +253,15 @@ Figure D.7 shows the output from the project. On the bottom right image, they ar
 8. Button to go to Hand Sign List
 
 ## E. COMPLETING THE PROJECT
+Closing Checklist
+
+:white_check_mark: [Sign Off](https://github.com/Has-if36/BITI3533-AIPM-HandSignLangAndroid/blob/main/documentation/SignOff.pdf)
+
+:white_check_mark: [Lesson Learned](https://github.com/Has-if36/BITI3533-AIPM-HandSignLangAndroid/blob/main/documentation/LessonLearned.pdf)
+
+:white_check_mark: [Final Project Report](https://github.com/Has-if36/BITI3533-AIPM-HandSignLangAndroid)
+
+:white_check_mark: [Closing Contract](https://github.com/Has-if36/BITI3533-AIPM-HandSignLangAndroid/blob/main/documentation/ContractClosure.pdf)
 
 ## F PROJECT PRESENTATION
 [![https://www.youtube.com/watch?v=ALqI2aP-8_c](https://res.cloudinary.com/marcomontalbano/image/upload/v1642827633/video_to_markdown/images/youtube--ALqI2aP-8_c-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/ALqI2aP-8_c "https://www.youtube.com/watch?v=ALqI2aP-8_c")
