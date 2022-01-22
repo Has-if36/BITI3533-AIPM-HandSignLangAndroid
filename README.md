@@ -108,9 +108,9 @@ Time | Take time to develop a mobile-based app | During the implementation phase
 Team Members | Role | Resposibilities
 --- | --- | --- 
 Ahmad Syazani Aniq | Project Manager | Oveseer the whole project development. Will allocate the tasks to all the members.
-Hasif Bin Mohamad Noh | Programmer | Program the mobile-based app and the system modules.
-Muhammad Naqib Hakimi Bin Hakmal | Human Resource | Plan the tasks and works that given to the members. Estimate the development cost. 
-Aiman Faris Bin Mazri | Designer | Design the whole app's interfaces and gui
+Hasif Bin Mohamad Noh | Implementation Manager | Program the mobile-based app and the system modules.
+Muhammad Naqib Hakimi Bin Hakmal | Project Scheduler | Plan the tasks and works that given to the members. 
+Aiman Faris Bin Mazri | Administrative Manager | Estimate the cost budget for the project. Provide reports.
 
 <p align="center">
   <em>Table B.2: Team Responsibility</em>
