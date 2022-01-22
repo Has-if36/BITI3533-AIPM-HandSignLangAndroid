@@ -16,12 +16,37 @@ Project Members:
   2) Muhammad Naqib Hakimi bin Hakmal (B031910407)
   3) Aiman Faris b. Mazri (B031910126)
   
-|Name|Matric Num.
---- | --- | ---
-Project Manager|Ahmad Syazani Aniq bin Ahmad Khaizi|B031910153
-|Hasif bin Mohamad Noh|B031910102
-Project Member|Muhammad Naqib Hakimi bin Hakmal|B031910407
-|Aiman Faris b. Mazri|B031910126
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Matric Num.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>Project Manager</td>
+            <td rowspan=2>Ahmad Syazani Aniq bin Ahmad Khaizi</td>
+            <td>B031910153</td>
+        </tr>
+        <tr>
+            <td rowspan=4></td>
+            <td rowspan=2>Hasif bin Mohamad Noh</td>
+            <td>B031910102</td>
+        </tr>
+        <tr>
+            <td rowspan=4>Project Member</td>
+            <td rowspan=2>Muhammad Naqib Hakimi bin Hakmal</td>
+            <td>B031910407</td>
+        </tr>
+        <tr>
+            <td rowspan=4></td>
+            <td rowspan=2>Aiman Faris b. Mazri</td>
+            <td>B031910126</td>
+        </tr>
+    </tbody>
+</table>
 
 Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
