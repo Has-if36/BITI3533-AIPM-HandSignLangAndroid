@@ -6,6 +6,12 @@
 4) Implementation Deliverables
 
 #### Task and Estimated Costs
+Task  | Estimated Costs | Notes
+------------- | ------------- | -----------------
+  |  | 
+  |  | 
+  |  | 
+Total |  | 
 
 #### Milestone Chart
 Milestone  | Scheduled Completion | Actual Completion
