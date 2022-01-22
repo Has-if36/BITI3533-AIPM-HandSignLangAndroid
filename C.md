@@ -8,10 +8,9 @@
 #### Task and Estimated Costs
 Task  | Estimated Costs | Notes
 ------------- | ------------- | -----------------
-  |  | 
-  |  | 
-  |  | 
-Total |  | 
+ Labor | 551,600 | 
+ Implementation | 268,000 | Hardware and software
+Total | 819,600 | 
 
 #### Milestone Chart
 Milestone  | Scheduled Completion | Actual Completion
