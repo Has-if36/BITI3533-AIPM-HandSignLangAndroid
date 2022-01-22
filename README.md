@@ -27,6 +27,7 @@ Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNI
 2) To help people to communicate with mute or deaf people
 3) To help people learn and practice this language
 
+## B. Planning the Project
 ### Design & Model
 
 There are 2 layers of AI implemented in this project:
