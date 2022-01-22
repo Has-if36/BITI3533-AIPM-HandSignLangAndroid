@@ -12,6 +12,8 @@ Project Members:
 
 Download the [APK File](https://drive.google.com/file/d/1VqzHEgbA8BqpSgVJruktaNIwynxj16w1/view?usp=sharing)
 
+[![Watch the video](https://img.youtube.com/vi/ALqI2aP-8_c/maxresdefault.jpg)](https://youtu.be/ALqI2aP-8_c)
+
 ## Introduction
 
   HaSLI is a mobile app that can translate hand sign language into alphabet by using real-time camera. HaSLI can help people to interact with mute or deaf people or they can use this app to learn the sign language
